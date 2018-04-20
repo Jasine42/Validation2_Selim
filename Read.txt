@@ -1,0 +1,27 @@
+J’ai commencé par l’API « https://geo.api.gouv.fr/regions », je voulais faire une sorte de carte qui aurais renvoyé les coordonné de chaque région, je ne la comprenais pas j’ai donc décider de la changer et d’utiliser celle des chats « https://thecatapi.com/docs.html#get » qui pour moi avais l’aire plus compréhensible.
+
+Finalement je suis retourné sur l’Api des régions, mon objectif étant, que si je clic sur la « requête a » il m’affiche la premiere region et sur la requête b le premier code (qui sera forcément correspondant à la région). Et ainsi de suite..
+
+Le nom de la premiere région dans la requête a correspond au code de la requête b.
+
+Le soucis que j’ai rencontré à été d’essayer d’afficher les région et les code l’un après l’autre .
+
+je ne comprenais pas si il fallait que je créer une fonction au dessus de on.clik ou seulement une variable 
+
+  
+  «   let num = 0;
+    ListElement.innerHTML = reg.length;
+    num++; » 
+
+ou 
+
+  function
+    let num = 0;
+    ListElement.innerHTML = reg.length;
+    num++;
+
+ou 
+
+???
+
+

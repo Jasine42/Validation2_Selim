@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+h1{
+  color: black;
+  text-decoration: underline;
+}
+#buttonList ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#buttonList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20vh;
+  align-items: center;
+  background-color: Wheat;
+  border-bottom: 10px solid black;
+}
+#resultList {
+  width: 100vw;
+  height: 80vh;
+  /* Change the color */
+  background-color: green;
+  overflow: scroll;
+}
+
+
+.Disposition{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.Keke{
+  list-style-type: none;
+  text-align: center;
+  color: FloralWhite;
+}
+
+.Samerli{
+  list-style-type: none;
+  text-align: center;
+  color: FireBrick;
+  font-weight: bold;
+}
